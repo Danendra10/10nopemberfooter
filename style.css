@@ -1,0 +1,61 @@
+section,
+.section {
+    padding: 100px 0px 100px;
+    min-height: 50vh;
+    display: block;
+}
+
+a{
+    color: #fff;
+}
+
+#footer {
+    background: #01395b;
+    background: -webkit-linear-gradient(left, #01395b, #0065ad);
+    background: -o-linear-gradient(right, #01395b, #0065ad);
+    background: -moz-linear-gradient(right, #01395b, #0065ad);
+    background: linear-gradient(to right, #01395b, #0065ad);
+    padding: 100px 0;
+}
+
+.row{
+    display: flex;
+}
+
+.columns{
+    flex: 50%;
+    margin-left: 22vh;
+}
+
+.fa, .columns p{
+    color: #fff;
+    margin-left: 20px;
+}
+.fa{
+    display: inline-flex;
+}
+.columns a{
+    text-decoration: none;
+}
+
+.address span{
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+}
+.address{
+    margin: 10px;
+}
+
+.columns .contact{
+    margin-top: 20px;
+}
+.contact span{
+    font-size: 19px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+}
